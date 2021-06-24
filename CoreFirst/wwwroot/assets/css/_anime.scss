@@ -1,0 +1,150 @@
+    .anime{
+        overflow: hidden;
+         background: #fcfcfc;
+        ul{
+            position: relative;
+            width: 100%;
+            li{
+                list-style: none;
+                label{
+                    position: relative;
+                    width: 100%;
+                    input[type="checkbox"]{
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                       
+
+                      }
+                      .icon{
+                        position: relative;
+                        height: 200px;
+                        background: #666696;
+                        color: rgb(88, 65, 65);
+                        font-size: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        margin: 0 10px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        box-shadow: -3px -3px 7px rgba(255,255,255,0.05),4px 4px 6px rgba(0,0,0,0.2),
+                                     inset   -5px -8px 9px rgba(255,255,255,0.05),
+                                     inset   1px 1px 1px rgba(0,0,0,0.2)
+                      }
+                      .icon:before{
+                        content: '' ;
+                        position: absolute;
+                        top: 2px;
+                        left: 2px;
+                        width: calc(100% - 5px);
+                        height: calc(100% - 5px);
+                        border-top-left-radius: 8px;
+                        border-top-right-radius: 8px;
+                        background: rgba(255,255,255,0.05);
+                      
+
+
+                    }
+                    input[type="checkbox"]:checked ~ .icon{
+                        box-shadow: inset   4px 5px 7px rgba(255,255,255,0.05),
+                                    inset   8px 9px 6px rgba(0,0,0,0.2);
+                                 
+                      }
+                    input[type="checkbox"]:checked ~ .icon .ico{
+                        color: #00f3ff;
+                        text-shadow: 0 0 15px #00f3ff,
+                                     0 0 25px #00f3ff;
+                        animation: animate 5s linear infinite;
+                       
+                    }
+                    @keyframes animate{
+                        0%{
+                            filter: hue-rotate(360deg);
+                        }
+                      }
+                 }
+
+                        
+              }
+
+          }
+
+    }
+ 
+ 
+
+
+
+
+
+
+
+// .anime{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     min-height: 55vh;
+//     background: #fcfcfc;
+//   }
+//   ul{
+//     position: relative;
+//     display: flex;
+//   }
+//   ul li{
+//     list-style: none;
+//   }
+//   ul li label{
+//     position: relative;
+//   }
+//   ul li label input[type="checkbox"]{
+//     position: absolute;
+//     opacity: 0;
+//     cursor: pointer;
+//   }
+//   ul li label .icon{
+//     position: relative;
+//     width: 360px;
+//     height: 360px;
+//     background: #fafafd;
+//     color: #555;
+//     font-size: 24px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     cursor: pointer;
+//     margin: 0 10px;
+//     border-radius: 10px;
+//     overflow: hidden;
+//     box-shadow: -1px -1px 4px rgba(255,255,255,0.05),4px 4px 6px rgba(0,0,0,0.2),
+//                  inset   -1px -1px 4px rgba(255,255,255,0.05),
+//                  inset   1px 1px 1px rgba(0,0,0,0.2)
+  
+//   }
+//   ul li label .icon:before{
+//     content: '' ;
+//     position: absolute;
+//     top: 2px;
+//     left: 2px;
+//     width: calc(100% - 5px);
+//     height: calc(100% - 5px);
+//     border-top-left-radius: 8px;
+//     border-top-right-radius: 8px;
+//     background: rgba(255,255,255,0.05);
+//   }
+//   ul li label input[type="checkbox"]:checked ~ .icon{
+//     box-shadow: inset   0px 0px 2px rgba(255,255,255,0.05),
+//                 inset   4px 4px 6px rgba(0,0,0,0.2);
+//   }
+//   ul li label input[type="checkbox"]:checked ~ .icon .ico{
+//     color: #00f3ff;
+//     text-shadow: 0 0 15px #00f3ff,
+//                  0 0 25px #00f3ff;
+//     animation: animate 5s linear infinite;
+//   }
+//   @keyframes animate{
+//     0%{
+//         filter: hue-rotate(360deg);
+//     }
+//   }

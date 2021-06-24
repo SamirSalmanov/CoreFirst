@@ -1,0 +1,179 @@
+
+.checkout{
+    padding: 30px 0 100px 0;
+    background-image: url(../img/road.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+        h2{
+            color: white;
+            text-align: center;
+            padding: 35px 0 30px 0;
+        }
+                .action-page{
+                                .leb{
+                                    color: white;
+                                    padding-bottom: 4px;
+                                    font-size: 20px;
+                                }
+                                .inp{
+                                    height: 35px;
+                                    font-size: medium;
+                                    padding-left: 15px;
+                                    width: 100%;
+                                    border: none;
+                                    border-radius: 5px;
+                                    border: 1px solid rgb(192, 180, 180);
+                                    box-shadow: 0 0 30px 0 rgb(10, 179, 33);
+                                    color: 1px solid rgb(233, 225, 225);
+                                     &:hover{
+                                         transform: scale(1.15);
+                                          transition: .3s;
+                             }
+                                }
+                                .sz{
+                                    font-size: medium;
+                                    padding-left: 15px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    border: 1px solid rgb(216, 210, 210);
+                                    box-shadow: 0 0 30px 0 rgb(24, 204, 8);
+                                     &:hover{
+                                          transform: scale(1.10);
+                                          transition: .4s;
+                                     }
+                                }
+                            }
+                            .payment{
+                                padding-bottom: 40px;
+                                text-align: end;
+                                
+                            }
+                            .action-page{
+                                .ico{
+                                    .icons{
+                                        ul{
+                                            li{
+                                                width: 20%;
+                                                background-color: rgb(20, 8, 5);
+                                                text-align: center;
+                                                border-radius: 21px;
+                                                line-height: 59px;
+                                                box-shadow: 0 0 20px 0 rgb(63, 54, 196);
+
+                                                &:hover{
+                                                     transform: scale(1.30);
+                                                     transition: .4s;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                                
+                                .lebel{
+                                    margin-top: 5px;
+                                    font-size: 30px;
+                                    color: rgb(241, 235, 234);
+
+                                }
+                                .inpu{
+                                    height: 35px;
+                                    font-size: medium;
+                                    padding-left: 15px;
+                                    width: 100%;
+                                    border: none;
+                                    border-radius: 5px;
+                                    border: 1px solid rgb(216, 210, 210);
+                                    box-shadow: 0 0 30px 0 rgb(53, 233, 17);
+                                    color: 1px solid rgb(233, 225, 225);
+                                     &:hover{
+                                          transform: scale(1.10);
+                                          transition: .4s;
+                                     }
+                                }
+                                .ex{
+                                    font-size: 15px;
+                                    padding-left: 15px;
+
+                                    width: 170px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    border: 1px solid rgb(216, 210, 210);
+                                    box-shadow: 0 0 30px 0 rgb(64, 204, 21);
+                                     &:hover{
+                                          transform: scale(1.10);
+                                          transition: .4s;
+                                     }
+                                    
+                                }
+                                .exp{
+                                    color: white;
+
+                                    padding-left: 15px;
+                                    padding-top: 20px;
+                                    
+                                    .expire{
+                                        
+                                        display: block;
+                                        width: 180px;
+                                    }
+                                    .cvv{
+                                        padding-left: 19px;
+
+                                    }
+                                }
+                            
+                        }
+                        
+
+                    .check{
+                        .btn{
+                            border-radius: 30px;
+                            margin-top: 20px;
+                            background-color: rgb(18, 157, 175);
+                            color: white;
+                            padding: 12px;
+                            border: none;
+                            width: 100%;
+                            box-shadow: 0 0 20px 0 rgb(63, 54, 196);
+                            color: 1px solid rgb(98, 51, 172);
+                            &:hover{
+                                transform: scale(1.15);
+                                transition: .3s;
+                             }
+                        }
+                    }
+                   
+               
+                .box{
+                   
+                    width: 323px;
+                    margin-left: 29px;
+                    padding: 26px;
+                    margin-top: 60px;
+                    background-color:  rgb(18, 157, 175);
+                    font-size: 25px;
+                    color: white;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px 0 rgb(160, 158, 187);
+
+                    p{
+                        display: block;
+                        a{
+                            list-style: none;
+                            text-decoration: none;
+                            color: (#082652);
+                            &:hover{
+                                color: rgb(226, 12, 12);
+                            }
+                        }
+                        
+                        display: flex;
+                        justify-content: space-between;
+                    }
+    
+
+                }

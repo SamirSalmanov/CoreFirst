@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/assets/vendors/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+          integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- </--------------Header------------/> -->
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">Smart Buyer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">MEN &nbsp;</a>
+                                <a class="dropdown-item" href="#">WOMAN &nbsp; </a>
+                                <a class="dropdown-item" href="#">KIDS &nbsp; </a>
+                                <a class="dropdown-item" href="#">SHOE &nbsp; </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Language
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Azərbaycan dili &nbsp;<img src="~/assets/img/icons/azerbaijan.png" width="20px" alt=""></a>
+                                <a class="dropdown-item" href="#">English &nbsp; <img src="~/assets/img/icons/united-kingdom.png" width="20px" alt=""></a>
+                                <a class="dropdown-item" href="#">Русский &nbsp; <img src="~/assets/img/icons/russia.png" width="20px" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Currency
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">AZN &nbsp ₼</a>
+                                <a class="dropdown-item" href="#">DOLLAR $</a>
+                                <a class="dropdown-item" href="#">EURO €</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <div style="background-color: rgb(163, 163, 117); width: 300px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <input style="width: 90%; padding-left: 5px; margin-left: 10px;" class="search" type="text" id="search" name="search" placeholder="search" required>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="cart">
+                        <a href="">
+                            <img src="~/assets/img/icons/shopping.png" width="50px" alt="">
+                            <span style="color: rgb(29, 58, 185); position: absolute;font-size: 20px; font-family: cursive; background-color: rgb(134, 155, 85);width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    text-align: center;
+                    border-radius: 15px;" class="action-num">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- </--------------Header-----------End-/> -->
+
+    @RenderBody()
+
+
+
+    <!--------- Footer ----------->
+    <footer id="footer">
+        <div class="container pb-5">
+            <div class="row" style="padding-bottom: 40px;">
+                <div class="col-lg-3 col-6">
+                    <div class="foot-item">
+                        <h4>Company</h4>
+                        <ul class="list-unstyled p-0">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Program</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="foot-item">
+                        <h4>Get Help</h4>
+                        <ul class="list-unstyled p-0">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Return</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Order Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-3">
+                    <div class="foot-item">
+                        <h4>Shop</h4>
+                        <ul class="list-unstyled p-0">
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Pijamas</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Dress</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-9">
+                    <div class="foot-item">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <a href="mailto:samir_salmanov_1988@mail.ru"><img src="~/assets/img/icons/mail-inbox-app.png" width="20px" alt=""> &nbsp; samir_salmanov_1988@mail.ru</a>
+                            </li>
+                            <li>
+
+                                <a href="tel:+994555055050"><img src="~/assets/img/icons/telephone.png" width="20px" alt="">&nbsp; +994555055050</i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copywrite justify-content-center ">
+                <div class="row">
+                    <div class="col-lg-4 col-12 ">
+                        <h5>© 2020 FORMANSPRORTSTORE.COM</h5>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="row justify-content-center flex-column align-items-center flex-md-row">
+                            <h5>Download Our App:</h5>
+                            <div class="ml-2 my-3 my-lg-0">
+                                <a href="#"><img src="~/assets/img/images/app-store.png" width="100px" alt=""></a>&nbsp;
+                                <a href="#"><img src="~/assets/img/images/play-store.png" width="100px" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 follow d-flex">
+                        <div class="social-links d-block">
+                            <div class="row">
+
+                                <div class="col-lg-5">
+                                    <h5>Follow Us:</h5>
+
+                                </div>
+                                <div class="col-lg-7 mini-follow ">
+                                    <div class="social-l d-flex">
+                                        <ul class="d-flex list-unstyled">
+
+                                            <li><a href="#"><img src="~/assets/img/icons/youtube (2).png" width="30px" alt=""></a></li>
+                                            <li><a href="#"><img src="~/assets/img/icons/instagram.png" width="30px" alt=""></a></li>
+                                            <li><a href="#"><img src="~/assets/img/icons/facebook.png" width="30px" alt=""></a></li>
+                                            <li><a href="#"><img src="~/assets/img/icons/linkedin.png" width="30px" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!--  -->
+</body>
+
+</html>
